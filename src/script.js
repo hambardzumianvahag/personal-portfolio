@@ -6,10 +6,10 @@ const profile = document.getElementById("profile");
 burgerMenuButton.addEventListener("click", function () {
   mobileMenu.classList.toggle("hidden");
   if (mobileMenu.classList.contains("hidden")) {
-    menuIcon.src = "./img/burger-menu.png";
+    menuIcon.src = "./src/img/burger-menu.png";
     profile.style.paddingTop = "5px";
   } else {
-    menuIcon.src = "./img/burger-close.png";
+    menuIcon.src = "./src/img/burger-close.png";
     profile.style.paddingTop = "260px";
   }
 });
@@ -33,12 +33,12 @@ function toggleTheme() {
   if (currentTheme === "light") {
     htmlElement.classList.remove("light");
     htmlElement.classList.add("dark");
-    document.getElementById("theme-icon").src = "./img/dark-icon.png";
-    document.getElementById("mobile-theme-icon").src = "./img/dark-icon.png";
+    document.getElementById("theme-icon").src = "./src/img/dark-icon.png";
+    document.getElementById("mobile-theme-icon").src = "./src/img/dark-icon.png";
   } else {
     htmlElement.classList.remove("dark");
     htmlElement.classList.add("light");
-    document.getElementById("theme-icon").src = "./img/light-icon.png";
-    document.getElementById("mobile-theme-icon").src = "./img/light-icon.png";
+    document.getElementById("theme-icon").src = "./src/img/light-icon.png";
+    document.getElementById("mobile-theme-icon").src = "./src/img/light-icon.png";
   }
 }
