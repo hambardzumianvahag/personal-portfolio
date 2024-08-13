@@ -4,11 +4,13 @@
 @tailwind components;
 @tailwind utilities;
 
-.fiskil-span {
-    /* @apply py-5px;
-    @apply px-10px;
-    @apply bg-gray-900 */
-    padding: 5px 15px;
-    background-color: rgba(229, 231, 235, 1);
-    border-radius: 12px;
+
+@layer components {
+    .fiskil-span {
+        @apply py-1.5 px-4 bg-gray-200 rounded-lg dark:bg-gray-700
+    }
 }
+
+/* padding: 5px 15px;
+    background-color: rgba(229, 231, 235, 1);
+    border-radius: 12px; */

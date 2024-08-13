@@ -10,7 +10,7 @@
 
 <body class="bg-white text-gray-900  dark:text-gray-200  font-inter">
     <header class="dark:bg-gray-950">
-        <div class=" py-4 px-2 flex items-center justify-between w-11/12 my-0 mx-auto">
+        <div class="max-w-[1280px] mx-auto py-4 md:px-8 px-4 flex items-center justify-between">
             <div>
                 <p class="text-3xl font-bold text-gray-900 dark:text-white">&lt;SS /&gt;</p>
             </div>
@@ -40,7 +40,7 @@
             </div>
         </div>
         <div id="mobile-menu"
-            class="hidden flex-col gap-4 p-8 absolute top-16 left-0 w-full bg-white dark:bg-gray-950 z-10">
+            class="hidden flex-col gap-4 p-8 absolute top-16 left-0 w-full h-full bg-white dark:bg-gray-950 z-10">
             <ul class="text-gray-600 font-medium dark:text-gray-300 border-b border-t ">
                 <li class="py-2">About</li>
                 <li class="py-2 ">Work</li>
@@ -64,8 +64,8 @@
     <main>
         <section class=" dark:bg-gray-950 w-full">
             <div
-                class="px-4 md-4 md:pb-16 md:pt-24 pt-8 pb-8 flex w-11/12 my-0 mx-auto flex-col-reverse md:flex-row justify-between items-start gap-12 md:gap-32 ">
-                <div class="max-w-3xl md:w-2/3">
+                class="md:px-8 px-4 md:pb-16 md:pt-24 pt-8 pb-8 flex max-w-[1280px] mx-auto flex-col-reverse md:flex-row justify-between md:items-start items-center gap-12">
+                <div class="max-w-[768px]">
                     <h1 class="md:text-6xl  text-3xl font-bold">Hi, I’m Sagar 👋</h1>
                     <p class="font-normal text-gray-600 dark:text-gray-300 leading-6 mt-4 md:mt-2 my-8 md:my-12">
                         I'm a full stack developer (React.js & Node.js) with a focus on creating (and occasionally
@@ -89,13 +89,14 @@
                         <img src="./src/img/figma-icon.png" alt="figma" class="w-6 h-6">
                     </div>
                 </div>
-                <div id="profile" class="bg-gray-200 dark:bg-gray-700 md:w-1/3 ">
-                    <img src="./src/img/profile-pic.jpg" alt="profile picture" class="w-full pl-4 pr-4 pb-4  md:pl-0 ">
+                <div id="profile" class="bg-gray-200 dark:bg-gray-700 max-w-[400px]">
+                    <img src="./src/img/profile-pic.jpg" alt="profile picture"
+                        class="md:max-w-72 max-w-[240px] md:pl-0 md:pr-10 md:pb-10 pr-5 pl-5 pb-5 ">
                 </div>
             </div>
         </section>
         <section class="dark:bg-gray-900 bg-gray-50">
-            <div class="px-4 py-8 md:py-24 w-11/12 my-0 mx-auto">
+            <div class="md:px-8 px-4 py-8 md:py-24 max-w-[1280px] my-0 mx-auto">
                 <div>
                     <div class="text-center mb-8 md:mb-12  flex justify-center">
                         <p
@@ -103,29 +104,29 @@
                             About Me</p>
                     </div>
                 </div>
-                <div class="flex flex-col md:flex-row justify-between items-start gap-12 md:gap-32">
-                    <div class="md:w-1/3 bg-gray-200 dark:bg-gray-700 ">
+                <div class="flex flex-col md:flex-row justify-between md:items-start items-center gap-12 ">
+                    <div class="max-w-[584px] bg-gray-200 dark:bg-gray-700">
                         <img src="./src/img/about-me.jpg" alt="about me"
-                            class="w-full pl-4 pr-4 pb-4 md:pt-4 md:pb-0 md:pr-0">
+                            class="md:max-w-[400px] max-w-[280px]  pl-4 pr-4 pb-4  md:pt-0 md:pr-0">
                     </div>
-                    <div class="md:w-1/2">
-                        <h2 class="md:text-3xl text-xl font-bold mb-4">Curious about me? Here you have it:</h2>
-                        <p class="mb-4 text-gray-600 dark:text-gray-300">I'm a passionate, <span
+                    <div class="max-w-[584px]">
+                        <h2 class="md:text-3xl text-xl font-bold">Curious about me? Here you have it:</h2>
+                        <p class="my-4 text-gray-600 dark:text-gray-300">I'm a passionate, <span
                                 class="underline underline-offset-2">self-proclaimed designer</span> who
                             specializes in full
                             stack development (React.js & Node.js). I am very enthusiastic about bringing the technical
                             and visual aspects of digital products to life. User experience, pixel-perfect design, and
                             writing clear, readable, highly performant code matter to me.</p>
-                        <p class="mb-4 text-gray-600 dark:text-gray-300">I began my journey as a web developer in 2015,
+                        <p class="my-4 text-gray-600 dark:text-gray-300">I began my journey as a web developer in 2015,
                             and since then,
                             I've continued to grow and evolve as a developer, taking on new challenges and learning the
                             latest technologies along the way. Now, in my early thirties, 7 years after starting my web
                             development journey, I'm building cutting-edge web applications using modern technologies
                             such as Next.js, TypeScript, Nestjs, Tailwindcss, Supabase, and much more.</p>
-                        <p class="mb-4 text-gray-700 dark:text-gray-300">I am very much a progressive thinker and enjoy
+                        <p class=" text-gray-700 dark:text-gray-300">I am very much a progressive thinker and enjoy
                             working on products
                             end to end, from ideation all the way to development.</p>
-                        <p class="mb-4 text-gray-700 dark:text-gray-300">When I'm not in full-on developer mode, you can
+                        <p class="my-4 text-gray-700 dark:text-gray-300">When I'm not in full-on developer mode, you can
                             find me hovering
                             around on Twitter or on Indie Hacker, witnessing the journey of early startups or enjoying
                             some free time. You can follow me on <span
@@ -134,7 +135,7 @@
                             public, or you can follow me on <span class="underline underline-offset-2">GitHub</span>.
                         </p>
                         <p class="mb-4 text-gray-700 dark:text-gray-300">Finally, some quick bits about me:</p>
-                        <div class="flex justify-between">
+                        <div class="flex justify-between max-w-[584px]  text-gray-600 dark:text-gray-300">
                             <div>
                                 <ul class="list-disc list-inside">
                                     <li>B.E. in Computer Engineering</li>
@@ -156,79 +157,78 @@
             </div>
         </section>
         <section class="dark:bg-gray-950">
-            <div class="w-11/12 mx-auto flex justify-center align center">
+            <div class="max-w-[1280px] md:px-8 px-4 mx-auto flex justify-center align center">
                 <div class="md:mt-24 mt-12">
                     <p
                         class="text-center bg-gray-200 max-w-20 mx-auto rounded-xl text-gray-600 dark:text-gray-300 dark:bg-gray-700 ">
                         Skills</p>
-                    <p class="mt-4 mb-10  text-gray-600 dark:text-gray-300 leading-7 text-center md:text-xl text-lg">
+                    <p class="mt-4 mb-6  text-gray-600 dark:text-gray-300 leading-7 text-center md:text-xl text-lg">
                         The
                         skills, tools and
                         technologies I am
                         really good at:</p>
-                    <div class="flex flex-wrap  justify-between items-center md:mb-24 mb-12">
-                        <div class="max-w-24 flex flex-col items-center justify-center md:m-10 m-2">
+                    <div class="flex flex-wrap justify-between items-center md:mb-24 mb-12 md:gap-[86px] gap-[15px]">
+                        <div class="md:max-w-[88px] max-w-[78px] flex flex-col items-center justify-center">
                             <img src="./src/img/js-icon.png" alt="js">
                             <p class="mt-1">JavaScript</p>
                         </div>
-                        <div class="max-w-24 flex flex-col items-center justify-center md:m-10 m-2">
+                        <div class="md:max-w-[90px] max-w-[80px] flex flex-col items-center justify-center">
                             <img src="./src/img/ts-icon.png" alt="ts">
                             <p class="mt-1">TypeScript</p>
                         </div>
-                        <div class="max-w-24 flex flex-col items-center justify-center md:m-10 m-2">
+                        <div class="max-w-[69.2px] flex flex-col items-center justify-center">
                             <img src="./src/img/react-icon.png" alt="react">
                             <p class="mt-1">React</p>
                         </div>
-                        <div class="max-w-24 flex flex-col items-center justify-center md:m-10 m-2">
-                            <img src="./src/img/next-icon.png" alt="next">
+                        <div class="max-w-[64px] flex flex-col items-center justify-center">
+                            <img src="./src/img/next-icon-light.png" id="next-icon" alt="next">
                             <p class="mt-1">Next.js</p>
                         </div>
-                        <div class="max-w-24 flex flex-col items-center justify-center md:m-10 m-2">
+                        <div class="md:max-w-[65px] max-w-[58px] flex flex-col items-center justify-center">
                             <img src="./src/img/node-icon.png" alt="node">
                             <p class="mt-1">Node.js</p>
                         </div>
-                        <div class="max-w-24 flex flex-col items-center justify-center md:m-10 m-2">
-                            <img src="./src/img/ex-icon.png" alt="express">
+                        <div class="md:max-w-[86px] max-w-[77px] flex flex-col items-center justify-center">
+                            <img src="./src/img/ex-icon-light.png" id='ex-icon' alt="express">
                             <p class="mt-1">Express.js</p>
                         </div>
-                        <div class="max-w-24 flex flex-col items-center justify-center md:m-10 m-2">
+                        <div class="max-w-[66px] flex flex-col items-center justify-center">
                             <img src="./src/img/nest-icon.png" alt="nest">
                             <p class="mt-1">Nest.js</p>
                         </div>
-                        <div class="max-w-24 flex flex-col items-center justify-center md:m-10 m-2">
+                        <div class="md:max-w-[79px] max-w-[70px] flex flex-col items-center justify-center">
                             <img src="./src/img/socket-icon.png" alt="socket">
                             <p class="mt-1">Socket.io</p>
                         </div>
-                        <div class="max-w-24 flex flex-col items-center justify-center md:mx-10 md:my-0 m-2">
+                        <div class="md:max-w-[102px] max-w-[90px] flex flex-col items-center justify-center">
                             <img src="./src/img/post-icon.png" alt="post">
                             <p class="mt-1">PostgreSQL</p>
                         </div>
-                        <div class="max-w-24 flex flex-col items-center justify-center md:mx-10 md:my-0 m-2">
+                        <div class="md:max-w-[84px] max-w-[75px] flex flex-col items-center justify-center ">
                             <img src="./src/img/mongo-icon.png" alt="mongo">
                             <p class="mt-1">MongoDB</p>
                         </div>
-                        <div class="max-w-24 flex flex-col items-center justify-center md:mx-10 md:my-0 m-2">
+                        <div class="md:max-w-[88px] max-w-[78px] flex flex-col items-center justify-center">
                             <img src="./src/img/sass-icon.png" alt="sass/scss">
                             <p class="mt-1">Sass/Scss</p>
                         </div>
-                        <div
-                            class="md:max-w-24 max-w-20 flex flex-col items-center justify-center md:mx-10 md:my-0 m-2">
+                        <div class="max-w-[104.73px] flex flex-col items-center justify-center">
                             <img src="./src/img/tailwind-icon.png" alt="tailwind">
                             <p class="mt-1">Tailwindcss</p>
                         </div>
-                        <div class="max-w-24 flex flex-col items-center justify-center md:mx-10 md:my-0 m-2">
+                        <div class="md:max-w-[52px] max-w-[46px] flex flex-col items-center justify-center">
                             <img src="./src/img/figma-skill-icon.png" alt="figma">
                             <p class="mt-1">Figma</p>
                         </div>
-                        <div class="max-w-24 flex flex-col items-center justify-center md:mx-10 md:my-0 m-2">
+                        <div class="md:max-w-[70px] max-w-[64px] flex flex-col items-center justify-center">
                             <img src="./src/img/cypress-icon.png" alt="cypress">
                             <p class="mt-1">Cypress</p>
                         </div>
-                        <div class="max-w-24 flex flex-col items-center justify-center md:mx-10 md:my-0 m-2">
+                        <div class="md:max-w-[89px] max-w-[79px] flex flex-col items-center justify-center">
                             <img src="./src/img/storybook-icon.png" alt="storybook">
                             <p class="mt-1">Storybook</p>
                         </div>
-                        <div class="max-w-24 flex flex-col items-center justify-center md:mx-10 md:my-0 m-2">
+                        <div class="max-w-[64px] flex flex-col items-center justify-center">
                             <img src="./src/img/git-icon.png" alt="git">
                             <p class="mt-1">Git</p>
                         </div>
@@ -237,7 +237,7 @@
             </div>
         </section>
         <section class="bg-gray-50 dark:bg-gray-900">
-            <div class="md:w-4/6 w-10/12 my-0 md:py-24 py-12 mx-auto">
+            <div class="max-w-[1280px] my-0 md:py-24 py-12 md:px-8 px-4 mx-auto">
                 <div class="text-center">
                     <p
                         class="bg-gray-200 max-w-32 rounded-xl text-gray-600 mx-auto dark:text-gray-300 dark:bg-gray-700 ">
@@ -246,9 +246,9 @@
                         of my most recent
                         experiences:</p>
                 </div>
-                <div>
+                <div class="max-w-[896px] flex flex-col items-center justify-center mx-auto">
                     <div
-                        class="flex max-w-4xl justify-between p-8   md:flex-row flex-col bg-white dark:bg-gray-800 rounded-xl ">
+                        class="flex flex-col md:flex-row items-start  justify-between md:gap-12 md:p-8 p-4 bg-white dark:bg-gray-800 rounded-xl ">
                         <div>
                             <img src="./src/img/upwork.png" alt="upwork">
                         </div>
@@ -256,7 +256,7 @@
                             <div class="max-w-96">
                                 <p class="font-semibold md:text-xl text-lg">Sr. Frontend Developer</p>
                                 <ul
-                                    class=" mt-4 list-disc md:text-base text-sm list-item list text-gray-900 leading-6 dark:text-gray-300">
+                                    class=" mt-4 list-disc  md:text-base text-sm list-inside list text-gray-600 leading-6 dark:text-gray-300">
                                     <li class="my-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
                                     <li class="my-1">Ut pretium arcu et massa semper, id fringilla leo semper.</li>
                                     <li class="my-1">Sed quis justo ac magna.</li>
@@ -269,7 +269,7 @@
                         </div>
                     </div>
                     <div
-                        class="flex max-w-4xl justify-between p-8 md:my-12 my-6  md:flex-row flex-col bg-white dark:bg-gray-800 rounded-xl ">
+                        class="flex items-start  flex-col md:flex-row md:gap-12 gap- justify-between md:p-8 p-4 md:my-12 my-6   bg-white dark:bg-gray-800 rounded-xl ">
                         <div>
                             <img src="./src/img/upwork.png" alt="upwork">
                         </div>
@@ -277,7 +277,7 @@
                             <div class="max-w-96">
                                 <p class="font-semibold md:text-xl text-lg">Team Lead</p>
                                 <ul
-                                    class=" mt-4 list-disc md:text-base text-sm list-item list text-gray-900 leading-6 dark:text-gray-300">
+                                    class=" mt-4 list-disc md:text-base text-sm list-inside list text-gray-600 leading-6 dark:text-gray-300">
                                     <li class="my-1">Sed quis justo ac magna.</li>
                                     <li class="my-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
                                     <li class="my-1">Sed quis justo ac magna.</li>
@@ -289,23 +289,24 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                <div
-                    class="flex max-w-4xl justify-between p-8   md:flex-row flex-col bg-white dark:bg-gray-800 rounded-xl ">
-                    <div>
-                        <img src="./src/img/upwork.png" alt="upwork">
-                    </div>
-                    <div class="flex md:flex-row flex-col-reverse justify-between items-start">
-                        <div class="max-w-96">
-                            <p class="font-semibold md:text-xl text-lg">Full Stack Developer</p>
-                            <ul
-                                class=" mt-4 list-disc md:text-base text-sm list-item list text-gray-900 leading-6 dark:text-gray-300">
-                                <li class="my-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum
-                                    dolor sit amet, consectetur adipiscing elit.</li>
-                            </ul>
+                    <div
+                        class="flex items-start flex-col md:flex-row  justify-between md:p-8 p-4   md:gap-12 bg-white dark:bg-gray-800 rounded-xl ">
+                        <div>
+                            <img src="./src/img/upwork.png" alt="upwork">
                         </div>
-                        <div class="md:my-0 my-4">
-                            <p>Dec 2015 - May 2017</p>
+                        <div class="flex md:flex-row flex-col-reverse justify-between items-start">
+                            <div class="max-w-96">
+                                <p class="font-semibold md:text-xl text-lg">Full Stack Developer</p>
+                                <ul
+                                    class=" mt-4 list-disc md:text-base text-sm list-inside list text-gray-600 leading-6 dark:text-gray-300">
+                                    <li class="my-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem
+                                        ipsum
+                                        dolor sit amet, consectetur adipiscing elit.</li>
+                                </ul>
+                            </div>
+                            <div class="md:my-0 my-4">
+                                <p>Dec 2015 - May 2017</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -313,7 +314,7 @@
             </div>
         </section>
         <section class="dark:bg-gray-950">
-            <div class="md:w-5/6 w-11/12 mx-auto md:py-24 py-12">
+            <div class="max-w-[1280ox] mx-auto md:py-8 py-4">
                 <p class="mx-auto rounded-xl text-gray-600 text-center px-2.5 bg-gray-200 max-w-20">Work</p>
                 <p
                     class="text-center mt-4 md:mb-12 mb-4 md:text-xl text-base text-gray-600 dark:text-gray-300 leading-7">
@@ -323,11 +324,11 @@
                     I have built:
                 </p>
                 <div>
-                    <div class="flex justify-between flex-col md:flex-row  dark:bg-gray-900 rounded-xl">
+                    <div class="flex justify-center flex-col md:flex-row px-4 dark:bg-gray-900 rounded-xl">
                         <div class="bg-gray-50 dark:bg-gray-800 md:rounded-xl">
                             <img src="./src/img/fiskil-1.png" alt="fiskil" class="w-full p-5">
                         </div>
-                        <div class="max-w-xl pl-5 md:pl-16 md:pr-8 pt-5 md:pb-24 pb-5">
+                        <div class="max-w-xl pl-4 md:pl-16 md:pr-8 pt-5 md:pb-24 pb-5">
                             <h2 class="font-semibold text-xl">Fiskil</h2>
                             <p class="text-gray-600 my-6 leading-6 dark:text-gray-300">Lorem ipsum dolor sit amet,
                                 consectetur adipiscing
@@ -351,8 +352,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="flex justify-between flex-col-reverse md:flex-row dark:bg-gray-900 my-12 rounded-xl">
-                        <div class="max-w-xl pl-5 md:pl-8 pr-16 pt-5 md:pb-24 pb-5">
+                    <div
+                        class="flex justify-center px-4 flex-col-reverse md:flex-row dark:bg-gray-900 my-12 rounded-xl">
+                        <div class="max-w-xl pl-4 md:pl-8 md:pr-16 pt-5 md:pb-24 pb-5">
                             <h2 class="font-semibold text-xl">Fiskil</h2>
                             <p class="text-gray-600 my-6 leading-6 dark:text-gray-300">Lorem ipsum dolor sit amet,
                                 consectetur adipiscing
@@ -379,7 +381,7 @@
                             <img src="./src/img/fiskil-2.png" alt="fiskil" class="w-full p-5">
                         </div>
                     </div>
-                    <div class="flex justify-between md:flex-row flex-col dark:bg-gray-900 rounded-xl">
+                    <div class="flex justify-center px-4 md:flex-row flex-col dark:bg-gray-900 rounded-xl">
                         <div class="bg-gray-50 dark:bg-gray-800 md:rounded-xl">
                             <img src="./src/img/fiskil-3.png" alt="fiskil" class="w-full p-5">
                         </div>
@@ -411,7 +413,7 @@
             </div>
         </section>
         <section class="bg-gray-50 dark:bg-gray-900">
-            <div class="w-11/12 mx-auto md:py-24 py-12">
+            <div class="max-w-[1280px] mx-auto md:px-8 px-4 py-10">
                 <p
                     class="px-5 dark:bg-gray-700 dark:text-gray-300 text-center text-gray-600 bg-gray-200 max-w-32 mx-auto rounded-xl text-sm">
                     Testimonials
@@ -454,25 +456,25 @@
             </div>
         </section>
         <section class="dark:bg-gray-950">
-            <div class="flex flex-col justify-center items-center md:py-24 py-12">
+            <div class="max-w-[1280px] mx-auto flex flex-col justify-center items-center md:px-8 px-4 md:py-24 py-12">
                 <p class="px-5 bg-gray-300 rounded-xl text-gray-600 dark:bg-gray-700 dark:text-gray-300">Get in touch
                 </p>
-                <p class="max-w-xl text-center md:text-xl text-base px-5 text-gray-600 dark:text-gray-300 mt-4">What’s
+                <p class="max-w-xl text-center md:text-xl text-base  text-gray-600 dark:text-gray-300 mt-4">What’s
                     next? Feel free to
                     reach out to me if
                     you're looking for a developer, have a query, or simply
                     want to connect.</p>
-                <div class="flex items-center justify-center md:gap-5 gap-2 md:mt-12 mt-6">
+                <div class="flex items-center justify-center md:gap-5 px-5 md:mt-12 mt-6">
                     <img src="./src/img/contact-mail.png" alt="mail">
                     <h2 class="font-semibold md:text-4xl text-base">reachsagarshah@gmail.com</h2>
                     <img src="./src/img/contact-copy.png" alt="copy">
                 </div>
-                <div class="flex items-center justify-center md:gap-5 gap-2 md:my-4">
+                <div class="flex items-center justify-center md:gap-5 px-5 md:my-4">
                     <img src="./src/img/contact-phone.png" alt="phone">
                     <h2 class="font-semibold md:text-4xl text-lg">+91 8980500565</h2>
                     <img src="./src/img/contact-copy.png" alt="copy">
                 </div>
-                <p class="text-gray-600 dark:text-gray-300 mt-12 mb-4">You may also find me on these platforms!
+                <p class="text-gray-600 dark:text-gray-300 md:text-base text-sm mt-12 mb-4">You may also find me on these platforms!
                 </p>
                 <div class="flex gap-5 items-center">
                     <img src="./src/img/contact-gh.png" alt="github">
